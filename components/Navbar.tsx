@@ -33,8 +33,16 @@ export const Navbar = () => {
                       {ShowNav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={39}/>}
             </div>
 
-            <div className={`fixed left-0 right-0  w-full h-full bg-black/90 transform transition-transform duration-300 ${ShowNav ? 'translate-x-0' : 'translate-x-full'}`}>
-
+            <div className={`fixed left-0 top-0  w-full h-full bg-gray-800/50 transform transition-transform duration-300 ${ShowNav ? 'translate-x-0' : 'translate-x-full'}`}>
+            <ul className=' flex  flex-col w-full  items-center justify-center  h-full  gap-y-4'>
+                    {NAVLINKS.map((item , index)=>(
+                        <li key={index}>
+                              <Link href={item.path} onClick={ToggleNAv} className=' text-4xl'>
+                                {item.title}
+                              </Link>
+                        </li>
+                    ))}
+                </ul>
             </div>
     </div>
   )

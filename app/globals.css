@@ -20,7 +20,47 @@
 }
 
 body {
-  background: black;
+  background: #0a0a0a;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.bg-circle-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.bg-circle-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.266);
+  z-index: -1;
+}
+
+.bg-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  background: radial-gradient(circle, 
+              #a09999e6 0%,
+              rgba(85, 81, 81, 0.9) 1%,
+              rgba(114, 99, 114, 0.3) 10%,
+              rgba(46, 40, 49, 0.368) 20%, 
+              rgba(82, 78, 85, 0.1) 60%, 
+              rgb(81, 76, 76) 100%);
+  z-index: 0;
+}
+
