@@ -56,7 +56,7 @@ body {
   border-radius: 50%;
   background: radial-gradient(circle, 
               #a09999e6 0%,
-              rgba(85, 81, 81, 0.9) 1%,
+              rgba(65, 62, 62, 0.9) 1%,
               rgba(114, 99, 114, 0.3) 10%,
               rgba(46, 40, 49, 0.368) 20%, 
               rgba(82, 78, 85, 0.1) 60%, 
@@ -75,4 +75,6 @@ body {
 
 }
 
-
+html{
+  scroll-behavior: smooth;
+}

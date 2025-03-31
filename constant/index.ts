@@ -7,15 +7,15 @@ export const NAVLINKS = [
     },
     {
         title:'Portfolio',
-        path:'#Portfolio'
+        path:'#portfolio'
     },
     {
         title:'Stack',
-        path:'#Stack'
+        path:'#stack'
     },
     {
         title:'Contact',
-        path:'#Contact'
+        path:'#contact'
     },
 ]
 

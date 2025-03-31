@@ -1,3 +1,4 @@
+import { Contact } from "@/components/Contact";
 import { Hero } from "@/components/Hero";
 import { LogoAnimation } from "@/components/LogoAnimation";
 import { Navbar } from "@/components/Navbar";
@@ -13,6 +14,7 @@ export default function Home() {
         <Stack/>
         <LogoAnimation/>
         <Portfolio/>
+        <Contact/>
       </div>
   );
 }
