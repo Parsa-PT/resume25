@@ -58,20 +58,20 @@ export const Projects = [
         year:2024,
         title:'lorem - saoks support chatbot',
         desc:'lorem lorem - saoks support chatbot lorem - saoks support chatbot lorem - saoks support chatbot',
-        image:'proj1'
+        image:'p1'
     },
     {
         id:2,
         year:2024,
         title:'lorem - saoks support chatbot',
         desc:'lorem lorem - saoks support chatbot lorem - saoks support chatbot lorem - saoks support chatbot',
-        image:'proj2'
+        image:'p2'
     },
     {
         id:3,
         year:2024,
         title:'lorem - saoks support chatbot',
         desc:'lorem lorem - saoks support chatbot lorem - saoks support chatbot lorem - saoks support chatbot',
-        image:'proj4'
+        image:'p3'
     },
 ]

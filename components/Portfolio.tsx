@@ -46,7 +46,7 @@ export const Portfolio = () => {
        </div>
        
 
-       <Image src={`/assets/${selectProject.image}.jpg`} alt='tes' width={800} height={450} className=' rounded-xl shadow-lg transition-opacity duration-500 ease-in-out'/>
+       <Image src={`/assets/${selectProject.image}.png`} alt='tes' width={800} height={450} className=' rounded-xl shadow-lg transition-opacity duration-500 ease-in-out'/>
        </div>
     </motion.section>
   )
